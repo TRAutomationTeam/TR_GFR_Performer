@@ -1,0 +1,222 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="UseApplicationAddDocument" sap:VirtualizedContainerService.HintSize="1408.8,1792" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="616,1727.2" sap2010:WorkflowViewState.IdRef="Sequence_98">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Add Document" sap:VirtualizedContainerService.HintSize="553.6,1638.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_22" ScopeGuid="31af7082-1b80-461b-adab-0d7bcb2b2fd9" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1324" sap2010:WorkflowViewState.IdRef="Sequence_97">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="457.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="457.6,477.6" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+              <ui:RetryScope.ActivityBody>
+                <ActivityAction>
+                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="416,269.6" sap2010:WorkflowViewState.IdRef="Sequence_99">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select GFR Documents'" sap:VirtualizedContainerService.HintSize="353.6,180.8" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="31af7082-1b80-461b-adab-0d7bcb2b2fd9" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="fdb49f0b-b48d-48f4-a06a-fd1d3c2af963" CvElementArea="986, 536, 184, 33" CvTextArea="996, 546, 163, 15" CvTextArgument="Select GFR Documents" CvType="Button" DesignTimeRectangle="999, 544, 160, 19" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Select GFR Documents'" FullSelectorArgument="&lt;ctrl automationid='4' /&gt;&lt;ctrl automationid='GFRDocButton' /&gt;&lt;ctrl name='Select GFR Documents' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='4' /&gt;&lt;ctrl automationid='GFRDocButton' /&gt;&lt;ctrl name='Select GFR Documents' role='text' automationid='' check:text='Select GFR Documents' /&gt;" Guid="3acb35bc-bd89-4299-b2ed-ba1e24943740" InformativeScreenshot="f05f2f26b6fff28708727ad5a32fd94f.png" ScopeSelectorArgument="&lt;wnd app='spbinder.exe' cls='HwndWrapper*' title='Add Document' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="fdb49f0b-b48d-48f4-a06a-fd1d3c2af963" CvElementArea="986, 536, 184, 33" CvTextArea="996, 546, 163, 15" CvTextArgument="Select GFR Documents" CvType="Button" DesignTimeRectangle="988, 538, 182, 31" ElementType="Button" FriendlyName="'Select GFR Documents'" FullSelectorArgument="&lt;ctrl automationid='4' /&gt;&lt;ctrl automationid='GFRDocButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='4' /&gt;&lt;ctrl automationid='GFRDocButton' role='push button' check:text='Select GFR Documents' /&gt;" ImageBase64="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" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RetryScope.ActivityBody>
+              <ui:RetryScope.Condition>
+                <ActivityFunc x:TypeArguments="x:Boolean" />
+              </ui:RetryScope.Condition>
+            </ui:RetryScope>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'check box  chkrow'" sap:VirtualizedContainerService.HintSize="457.6,139.2" sap2010:WorkflowViewState.IdRef="Click_21" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="861430f8-0e9e-4356-86e1-ddcac8246dc7" InformativeScreenshot="ba38321492f4ca437bbbe654564bb5ca" Selector="&lt;wnd app='spbinder.exe' cls='HwndWrapper*' /&gt;&lt;ctrl name='System.Data.DataRowView' role='list item' /&gt;&lt;ctrl automationid='chkrow' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add'" sap:VirtualizedContainerService.HintSize="457.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_47" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="31af7082-1b80-461b-adab-0d7bcb2b2fd9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="165ffd07-02ed-4f0d-969f-f10157f341ca" CvElementArea="675, 258, 103, 33" CvTextArea="711, 268, 30, 15" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="714, 267, 27, 19" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Add'" FullSelectorArgument="&lt;ctrl name='Add' role='push button' /&gt;&lt;ctrl name='Add' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Add' role='push button' /&gt;&lt;ctrl name='Add' role='text' automationid='' check:text='Add' /&gt;" Guid="7a072d9a-ff76-4d19-9852-03c6a9f2de5e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAXCAYAAADz/ZRUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFySURBVEhL7ZRZT8JQEIX9/z9EY9SAuLEZZNFUoMVa1qKCoIlRicsDUV5Gz9RpettG7wOxLzycNJ35OmfudNq14d2CktLKPBGtzBNRrHnx9JrWUwZtpM/Jdl8j+bBKxoj5kjGOzUNxTMTcnX5SOmczCB2f3Sj5OC3N3Hbf+MSZgsNXNBJmwlqauYy80pjQbt5roNV/UZhqc0pb+ybnoM1MI1JYh1HMMfJU9oJB5+rdbwRXYWrmPccwGas3o+5oTtnyQCmsw0CKudmdMYAT4x6vAPc7hy2f2St2ItMIj1SHgRTzfHWoAJgEjFGo2XmmweSDtg8sHmfwuWBhHUZivrlnZDEQp1zF/Slsapj/zkjMN2+0nziJ7ca4RHXnkeNoDFw6d/nnSHUYyDfHyZAs12/9JCTfPYqhwULNezXSpGE/8I4EC+swEJvLqGTLJSmSrT866VNvPP9eqDY3gxieSWW9n5IU1mEgZeH+WyvzRJSg+YK+AK/sCYJLQIPHAAAAAElFTkSuQmCC" InformativeScreenshot="5179e946824df937501dd46a3716f3fd.png" ScopeSelectorArgument="&lt;wnd app='spbinder.exe' cls='HwndWrapper*' /&gt;" SearchSteps="Selector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="165ffd07-02ed-4f0d-969f-f10157f341ca" CvElementArea="675, 258, 103, 33" CvTextArea="711, 268, 30, 15" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="678, 261, 100, 32" ElementType="Button" FriendlyName="'Add'" FullSelectorArgument="&lt;ctrl name='Add' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Add' role='push button' automationid='' check:text='Add' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAkCAYAAABlhn+2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHrSURBVGhD7ZdrSwJREIb7/z+kiArtrmWYl8K8lZlaWmlqEKmUQVJRTc3YkTWXOp/sPTQDD8uefffLPJzZszOkBV0qCLxEUP/xjdqdVwUE9mFKBHX7r1RrvyggsA9TKggQFQSOCgJHBYGjgsBRQeCoIHBUEDgqCBznBEX2Lmg2kKK54AEVqve+GS/RVF3y0VTD9zljk/krnBJUbT1TMFyQZjI7+5e+OS8qaIoUqn3ZOSvbRbmyLL+cFxU0Rcx4i2eatLw1lHR4ejeWSWRbtLCWk2fM/Epmovk2GRScEcTjLRA6kmYWzx9GsvhqMsnctazxDstXelSuDygUOxtrvk0GCWcE5co9aSLvHL7nccf3SxuHo8xqpDSxq76PL5sMEs4I2krUxprIO4rlcLOzpS6dNZ9ocT0vo8v7nrf5NhnvOgJOCBrKyEsT/QjHq1/Nz1kI+jnjXUfACUGZk440kE9tPJoM6eKtrLM8zgXDx7+OL5sMEk4I4h3CDYylr8bWzX8RN5wlbieHY9CITBVu5Jvlbb5NBgl4QWYsmdPb9+fmNLe5e0qVxuDzEHAiwniN3wmEhj+2pvk2GSSc2EH/GRUEjgoCRwWBo4LAUUHgqCBwVBA4KgicCUGDp3fqfS4qGLAPUyJIC7dUEHQRfQB7HbeR/rLdggAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="457.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="457.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="31af7082-1b80-461b-adab-0d7bcb2b2fd9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="966, 693, 96, 34" CvTextArea="986, 703, 55, 15" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="968, 696, 94, 31" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;ctrl automationid='btnSubmit' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnSubmit' role='push button' check:text='Submit' /&gt;" Guid="adf76d1c-c550-483d-8546-4fa816199ad0" InformativeScreenshot="e41e06a854222f4c95da433992b07360.png" ScopeSelectorArgument="&lt;wnd app='spbinder.exe' cls='HwndWrapper*' title='Add Document' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Visible" WaitForReadyArgument="Complete">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="966, 693, 96, 34" CvTextArea="986, 703, 55, 15" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="989, 702, 51, 19" ElementType="Text" FriendlyName="'Submit'" FullSelectorArgument="&lt;ctrl automationid='btnSubmit' /&gt;&lt;ctrl name='Submit' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnSubmit' /&gt;&lt;ctrl name='Submit' role='text' automationid='' check:text='Submit' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="359, 142, 1203, 747" FilePath="C:\SurePrepLocalFiles\SPbinder\spbinder.exe" IconBase64="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" InformativeScreenshot="597daa4fa6b611de5e822b3bbd8e8bbc.png" Selector="&lt;wnd app='spbinder.exe' cls='HwndWrapper*' title='Add Document' /&gt;" Title="Add Document" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
